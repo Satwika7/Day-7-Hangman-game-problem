@@ -36,11 +36,12 @@ while not end_game and not lost:
     print("\n")
     if wrong_guesses==0:
       lost = True
-      
+      print(f"The word is {word}\n")
       print("You Lost")
     
     
     if "_" not in list1:
       end_game = True
+      print(f"The word is {word}\n")
       print("You Win")
   guess_entered+=guess
