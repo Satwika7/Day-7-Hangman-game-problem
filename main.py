@@ -36,7 +36,7 @@ while not end_game and not lost:
     print("\n")
     if wrong_guesses==0:
       lost = True
-      print(lost)
+      
       print("You Lost")
     
     
